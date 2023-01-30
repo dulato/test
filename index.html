@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/logo.png">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Test</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header id="header" class="header">
+                <nav class="nav">
+                    <div class="container">
+                        <div class="nav_body">
+                            <a href="#main" class="logo" id="logo"><img src="img/logo.png" alt=""></a>
+                            <input class="checkbox" type="checkbox" name="checkbox" id="checkbox"/>
+                            <div class="hamburger-lines">
+                                <span class="line line1"></span>
+                                <span class="line line2"></span>
+                                <span class="line line3"></span>
+                            </div> 
+                            <ul class="menu_list">
+                                <li><a href="#our" class="menu_link">Наши программы</a></li>
+                                <li><a href="#partner" class="menu_link">Партнеры</a></li>
+                                <li><a href="#footer" class="menu_link">Свяжитесь с нами сегодня</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main id="main" class="main">
+                <div class="main_1">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/11.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="img/13.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="img/12.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                </div>
+                <div id="our" class="main_2">
+                    <div class="container">
+                        <div class="content_1">
+                            <div class="content_1_body">
+                                <div class="body_1_photo">
+                                    <div class="body_1_photo_content">
+                                        <div class="body_1_swiper"><img src="img/21.jpg" alt=""></div>
+                                        <div class="body_1_swiper"><img src="img/23.jpg" alt=""></div>
+                                        <div class="body_1_swiper"><img src="img/22.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="body_1_info">
+                                    <h5 class="hashtag">#ТУРМИРСОВЕТ</h5>
+                                    <h2 class="info_1_title">Закаты Стамбула</h2>
+                                    <p class="info_1_text">Если окажитесь в Стамбуле,
+                                        не забудьте посетить местную набережную
+                                        чтобы лицезреть один из самых волшебных
+                                        закатов на нашей Земле.</p>
+                                    <p class="info_1_text">Местные говорят, что если загадать желение
+                                        во время того как солнце переходит через
+                                        границу с морем, то оно обязательно сбудится.</p>
+                                    <p class="info_1_text">Так же Вы можете провести вечер с ужиной
+                                        на пароме вдоль береговой линии, налсаждаясь
+                                        приятным вечерним бризом от моря.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_3">
+                    <div class="container">
+                        <div class="content_2">
+                            <div class="content_2_top"><span>ВЫБИРАЙ <br>И УЗНАВАЙ</span></div>
+                            <div class="content_2_body">
+                                <div class="body_2_part_1">
+                                    <img src="img/31.jpg" alt="">
+                                </div>
+                                <div class="body_2_part_2">
+                                    <img src="img/32.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="partner" class="main_4">
+                    <div class="container">
+                        <div class="content_3">
+                            <div class="first_part">
+                                <h2 class="content_3_title">СКОЛЬКО ПЛЯЖЕЙ НАХОДИТСЯ В ЕВРОПЕ?</h2>
+                            </div>
+                            <div class="second_part">
+                                <p class="content_2_text">Самый знаменитый и лучший пляж Корсики 
+                                    расположен во Франции, в городе Порто-Веккьо, 
+                                    на юго-восточном побережье.</p>
+                                <p class="content_2_text">Двухкилометровая береговая линия с мелким 
+                                    золотым песком окружена горами и сосновым
+                                    лесом, в котором можно скрыться от жарких 
+                                    солнечных лучей.</p>
+                                <p class="content_2_text">Это рай с прозрачной бирюзовой водой, 
+                                    валунами розового порфира, национальным 
+                                    колоритом и большим выбором развлечений, 
+                                    включая поездки на катерах 
+                                    к островам Cerbicales и Lavezzi. </p>
+                                <p class="content_2_text">Сюда часто приезжают с детьми – родителям 
+                                    нравится чистота пляжа и плавные спуски к воде.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="subscribe" class="main_5">
+                    <div class="container">
+                        <div class="content_4">
+                            <h2 class="content_4_title">Подпишитесь на личную рассылку</h2>
+                            <form action="#" id="send" class="send">
+                                <div class="name_div">
+                                    <label for="name" id="name_lb" class="label">Имя</label>
+                                    <input type="text" id="name" class="input" name="name" minlength="2" maxlength="16" placeholder="Иван" autocomplete="off" required>
+                                </div>
+                                <div class="surname_div">
+                                    <label for="surname" id="sur_lb" class="label">Фамилия</label>
+                                    <input type="text" id="surname" class="input" name="surname" minlength="2" maxlength="22" placeholder="Иванов" autocomplete="off" required>
+                                </div>
+                                <div class="number_div">
+                                    <label for="number" id="num_lb" class="label">Номер телефона</label>
+                                    <label for="number" id="label_notice" class="label">Неправильный номер</label>
+                                    <input type="tel" id="number" class="input" name="number" placeholder="+7 777 777 77 77" autocomplete="off" required>
+                                </div>
+                                <div class="emain_div">
+                                    <lable for="email" id="email" class="label">Почтовый адрес</lable>
+                                    <input type="email" id="email" class="input" name="email" maxlength="32" placeholder="email@box.com" autocomplete="off" required>
+                                </div>
+                                <div class="button_div">
+                                    <button type="submit" id="send_btn" class="send_btn">Отправить</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer id="footer" class="footer">
+                <div class="container">
+                    <div class="footer_top"><a href="#main" class="footer_logo"><img src="img/logo.png" alt=""></a></div>
+                    <div class="footer_body">
+                        <ul class="footer_list">
+                            <li><a href="#our" class="footer_link">НАШИ ПРОГРАММЫ</a></li>
+                            <li>-</li>
+                            <li><a href="#partner" class="footer_link">ПАРТНЕРЫ</a></li>
+                            <li>-</li>
+                            <li><a href="#footer" class="footer_link">СВЯЖИТЕСЬ С НАМИ</a></li>
+                            <li>-</li>
+                            <li><a href="#subscribe" class="footer_link">ПОДПИШИТЕСЬ НА РАССЫЛКУ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_bottom">
+                        <div class="footer_bottom_body">
+                            <div class="footer_map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.575205628194!2d76.92566040565832!3d43.21839840464219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f30f7a99069%3A0x7adb88ae41e2c540!2sEsentai%20Mall!5e0!3m2!1skk!2skz!4v1653199276116!5m2!1skk!2skz" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                            </div>
+                            <div class="footer_address">
+                                <h3 class="address_title">НАШИ ЛОКАЦИИ</h3>
+                                <ul class="add_names">
+                                    <li class="address_name">Торговый центр Dostyk Plaza</li>
+                                    <li class="address_name">Торговый центр Esentai Mall</li>
+                                    <li class="address_name">Супермаркет Magnum Express</li>
+                                </ul>
+                                <p class="address_text">За всей дополнительной информацией
+                                    можно обращаться по телефонам:</p>
+                                <p class="address_info">+7 777 777 77 77</p>
+                                <p class="address_info">+7 777 777 77 77</p>
+                                <p class="address_info">+7 777 777 77 77</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="https://unpkg.com/imask"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
